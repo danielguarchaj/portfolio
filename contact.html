@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Contact Us</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+							<li class="nav-item active"><a class="nav-link" href="contact.html">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+    <!--================ Start Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Contáctanos</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Banner Area =================-->
+    
+    <!--================Contact Area =================-->
+    <section class="contact_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>Sololá, Guatemala</h6>
+                            <p>Nahualá</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6><a href="#">(+502) 3010 4688</a></h6>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6><a href="#">gtdanniel@gmail.com</a></h6>
+                            <p>Envía tus consultas en cualquier momento!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" id="contactForm" name="messageForm">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control data" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control data" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control data" id="subject" name="subject" placeholder="Ingresa el asunto" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control data" name="message" id="message" rows="1" placeholder="Enter Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="button" value="" class="primary_btn" onclick="enviarMensaje()">
+                                <span>Enviar Mensaje</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Contact Area =================-->
+        
+        <!--================Footer Area =================-->
+	<footer class="footer_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="footer_top flex-column">
+                        <div class="footer_logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                            <h4>Redes sociales</h4>
+                        </div>
+                        <div class="footer_social">
+                            <a target="_blank" href="https://www.facebook.com/DanielGuarchaj"><i class="fa fa-facebook"></i></a>
+							<a target="_blank" href="https://twitter.com/dannielthgn"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" href="https://www.linkedin.com/in/daniel-guarchaj-764779148/"><i class="fa fa-linkedin"></i></a>
+							<a target="_blank" href="https://github.com/danielguarchaj"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom justify-content-center">
+                <p class="col-lg-8 col-sm-12 footer-text">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        const enviarMensaje = mf => {
+            const dataInputs = document.getElementsByClassName('data')
+            const payload = {}
+            for (const input of dataInputs) {
+                if (!input.value) {
+                    alert('Todos los campos son requeridos')
+                    return
+                }
+                payload[input.name] = input.value
+            }
+
+            fetch('https://dgdevs-portfolio-service.herokuapp.com/messages/', {
+            method: 'POST',
+            body: JSON.stringify(payload), // data can be `string` or {object}!
+            headers:{
+                'Content-Type': 'application/json'
+            }
+            }).then(res => res.json())
+            .catch(error => {
+                alert('Error al enviar el mensaje, revise todos los campos')
+                console.log(error)
+            })
+            .then(response => {
+                if (response.id) {
+                    alert('Mensaje enviado, lo contactaremos lo mas pronto posible')
+                    location.reload()
+                }else if (response.email) {
+                    alert('Ingrese un email valido')
+                }
+            });
+
+        }
+    </script>
+</body>
+
+</html>
